@@ -1,0 +1,46 @@
+body{
+    margin: 0 200px 0 200px;
+}
+.cert{
+    font-size:20px;
+    color:#444444;
+    margin:1% 0 0 10% ;
+    padding:4px;
+}
+.pp{
+    position:absolute;
+    top:17%;
+    left:60%;
+    width:210px;
+    height:270px;
+}
+h2{
+    text-align: center;
+    color:#012970;
+}
+p{
+    color:black;
+    font-size:24px;
+
+}
+.pport{
+    display:flex;
+    justify-content: space-evenly;
+}
+.pp2{
+    width:210px;
+    height:270px;
+    position:absolute;
+    top:75%;
+    left:46%;
+}
+.pp3{
+    width:210px;
+    height:270px;
+    position:absolute;
+    top:75%;
+    left:68%;
+}
+.fn{
+    width:300px;
+}

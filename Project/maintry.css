@@ -1,0 +1,57 @@
+#logo{
+    height: 75px;
+    width: 89px;
+}
+header{
+    display:flex;
+    justify-content:space-evenly;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+}
+header ul li{
+    display:inline-block;
+    margin:10px;
+    padding:5px;
+}
+a{
+    text-decoration: none;
+    color:#163A5F;
+}
+#Get{
+    background-color: blue;
+    color:white;
+    padding:7px;
+}
+section ul{
+    display:flex;
+    justify-content:center;
+}
+section ul li{
+    margin:50px;
+    padding:30px;
+    list-style:none;
+    border:1px solid;
+    border-color: rgb(167, 139, 139);
+    border-radius: 5px;
+    width:250px;
+    font-size: 20px;
+    color:#163A5F;
+}
+#midpic{
+    height:600px;
+    width:1066px;  
+    margin-top:30px;
+    border-radius: 5px;
+}
+section ul li img{
+    height:135px;
+    width:240px;
+    border-radius: 5px;
+}
+section ul li div a{
+    font-size:16px;
+    border:1px solid;
+    padding:7px;
+    background-color:#1D566E;
+    color:white;
+}

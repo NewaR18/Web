@@ -1,0 +1,79 @@
+.body{
+    background-image: url(rise.jpg);
+}
+.box{
+    margin: 100px 300px 0px 300px;
+    display:block;
+    background-color:#211640;
+    color:white;
+    padding:40px;
+}
+.left{
+    display: inline-block;
+    width:400px;
+    height:600px;
+}
+.right{
+    margin:0px 100px 0px 0px;
+    display:inline-block;
+    float:right;
+}
+.first{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+}
+.table{
+    height:550px;
+    width:400px;
+    color:honeydew;
+    border:3px solid;
+    border-radius:14px;
+    border-spacing: 1px;
+    border-color: grey;
+}
+#scroll{
+    margin:4px, 4px;
+    padding:4px;
+    background-color:#211640;
+    width:600px;
+    height:600px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    text-align:justify;
+}
+.last{
+    background-color:#363636;
+    font-size:15px;
+    color: white;
+}
+.content{
+    font-size:14px;
+}
+.mid{
+    text-align: center;
+    padding:2%;
+}
+.submit1{
+    width:50%;
+    font-size:16px;
+    color:#94228a
+}
+.register{
+    background-color:white;
+    text-align:center;
+    padding:8px;
+}
+.first{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+}
+.comment{
+    font-size: 14px;
+    color:burlywood;
+    font-weight: bold;
+    font-style:italic;
+}

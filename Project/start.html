@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Partnership</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <body class="body">
+        <div class="Nav">
+            <img class="logo" src="download.png" alt="Logo">
+            <a class="about" href="about.html">About</a>
+            <a class="contact" href="contact.html">Contact us</a>
+            <a class="signup" href="signup.html">Sign up</a>
+        </div>
+        <div class="sign">
+            <span class="left">
+                <img src="galaxy.jpg" alt="photo">
+            </span>
+            <span class="right">
+                <h1 class="first">Sign in</h1>
+                <table class="table"  cellpadding="50px" align="center">
+                <tr>
+                    <td style="padding:10%">
+                        <form method="post" action="check.php">
+                            <!--
+                            <?php
+                                if(isset($_GET['status'])){
+                                    echo "<p class='comment'>Invalid Credentials</p><br>";
+                                }
+                                if(isset($_GET['logout'])){
+                                    echo "<p class=\"comment\">Logged out</p><br>";
+                                }
+                                if(isset($_GET['register'])){
+                                    echo "<p class='comment'>Registered</p><br>";
+                                }
+                                ?>-->
+                            Email: <input type="text" name="email"><br><br>
+                            Password: <input type="password" name="password"><br><br>
+                            <div class="mid">
+                            <input class="submit1" type="Submit" value="Log in"></div>
+                            <br>
+                            <p style= font-size:12px>Don't have an account?</p>
+                                <a style="color:yellow" href="register.php">Register</a>
+                        </form>
+                    </td>
+                </tr>
+                </table>
+            </span>
+            
+        </div>
+    </body>
+    
+</html>
